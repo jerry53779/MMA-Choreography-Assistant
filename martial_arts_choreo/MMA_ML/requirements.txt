@@ -1,13 +1,13 @@
-altair==5.5.0
-matplotlib==3.10.5
-numpy==1.26.4
-opencv-contrib-python==4.11.0.86
-opencv-python==4.11.0.86
-pandas==2.3.1
-pillow==11.3.0
-pydeck==0.9.1
-requests==2.32.4
-sounddevice==0.5.2
 streamlit==1.47.1
 streamlit-webrtc==0.63.3
+opencv-python-headless==4.11.0.86  # use headless version for cloud
+numpy==1.26.4
+pandas==2.3.1
+matplotlib==3.10.5
+altair==5.5.0
+plotly==5.22.0
+pydeck==0.9.1
+sounddevice==0.5.2
 typing_extensions==4.14.1
+Pillow==11.3.0
+requests==2.32.4
