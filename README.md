@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/3ef32965-4126-4449-bfe4-e0e146657010" />README.md
 
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
