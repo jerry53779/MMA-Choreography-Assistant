@@ -109,6 +109,6 @@ This video shows real-time detection, classification, and shadow mimicry.
 
 ## Team Contributions
 
-* Jerry Berna: Pose tracking, integration with Mediapipe
+* Jerry Bernard: Pose tracking, integration with Mediapipe
 * Suha Shajahan: Trained the ML model using dataset
 ---
