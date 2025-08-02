@@ -1,101 +1,117 @@
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/3ef32965-4126-4449-bfe4-e0e146657010" />README.md
+
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
-
+# MMA Shadow Fighter 🎯
 
 ## Basic Details
-### Team Name: Real2Virtual
 
-
+### Team Name: Team Pazhampori
 ### Team Members
-- Team Lead: [Jerry Berna] - [Albertian Institute Of Science and Technology(aisat)]
-- Member 2: [Alan Verghese Mathew] - [Albertian Institute Of Science and Technolgy(aisat)]
-- Member 3: [Name] - [College]
+
+* Team Lead: Jerry Berna - Albertian Institute of Science and Technology (AISAT)
+* Member 2: Suha Shajahan - Albertian Institute of Science and Technology (AISAT)
 
 ### Project Description
-[2-3 lines about what your project does]
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
-For Software:
-- Open cv
-- Unity
-- Python
-- c##
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+This project is an AI-powered MMA shadow fighting trainer that uses computer vision to track body movements and classify them as martial arts actions like punch, kick, guard, or grapple. You can also record and mimic your own moves using "shadow mode".
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
 
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+### The Problem (that doesn’t exist)
+
+Have you ever wanted to fight yourself in real time? Probably not—but now you can! Bored of shadowboxing alone? Don't worry, we’ve given your shadow an actual memory.
+
+---
+
+### The Solution (that nobody asked for)
+
+Using OpenCV and Mediapipe, we capture your live skeleton movements, classify your fighting style, and even let you record your own fight so you can train against... yourself. You vs. Past You: the ultimate battle.
+
+---
+
+## Technical Details
+
+### Technologies/Components Used
+
+For Software:
+
+* Python
+* OpenCV
+* Mediapipe
+* Unity (for future visualization)
+* C# (planned integration)
+
+For Hardware:
+
+* Webcam or laptop camera
+* (Optional) ESP32-S3 (for physical arm mimicry)
+* Any laptop capable of running OpenCV and Python
+* USB cable (if using microcontroller)
+
+---
+
+### Implementation
+
+For Software:
+
+# Installation
+
+Clone the repo and install dependencies:
+
+bash
+git clone https://github.com/yourusername/mma-shadow-fighter.git  
+cd mma-shadow-fighter  
+pip install -r requirements.txt
 
 
+# Run
 
+bash
+python app.py
+
+
+---
+
+### Project Documentation
+
+# Screenshots
+
+<img width="1916" height="962" alt="Screenshot 2025-08-02 192417" src="https://github.com/user-attachments/assets/8c828390-00eb-499d-9d63-4eb10e872080" />
+
+
+<img width="1918" height="976" alt="Screenshot 2025-08-02 192955" src="https://github.com/user-attachments/assets/ae0e19e8-d478-43e1-b187-4f1bf822bc68" />
+
+
+![Screenshot3](screenshots/suggestion_chart.png)
+Action label display — tracks what you’re doing.
+
+# Diagrams
+
+![Workflow](diagrams/workflow.png)
+Pose detection → Keypoint processing → Action classification → Shadow rendering.
+
+---
+
+# Build Photos
+
+<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/ce181b74-db29-4c1b-9beb-fd3212ac5cb2" />
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/33b9bee9-b551-41a9-a7cf-a0fe55c40ba5" />
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/8ffddd08-2eb8-48f8-a73e-0ffdcfe49f24" />
+
+
+---
+
+### Project Demo
+
+# Video
+
+🎥 Watch the demo here: [Demo Video](https://drive.google.com/file/d/1oGPGQho9Ab-yvJUPREHfqaSn5x5eOpH7/view?usp=drive_link)
+This video shows real-time detection, classification, and shadow mimicry.
+
+
+## Team Contributions
+
+* Jerry Berna: Pose tracking, integration with Mediapipe
+* Suha Shajahan: Trained the ML model using dataset
+---
