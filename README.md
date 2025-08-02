@@ -38,15 +38,13 @@ For Software:
 * Python
 * OpenCV
 * Mediapipe
-* Unity (for future visualization)
-* C# (planned integration)
+* numpy
+* sklearn
 
 For Hardware:
 
 * Webcam or laptop camera
-* (Optional) ESP32-S3 (for physical arm mimicry)
 * Any laptop capable of running OpenCV and Python
-* USB cable (if using microcontroller)
 
 ---
 
@@ -59,7 +57,7 @@ For Software:
 Clone the repo and install dependencies:
 
 bash
-git clone https://github.com/yourusername/mma-shadow-fighter.git  
+git clone https://github.com/jerry53779/mma-shadow-fighter.git  
 cd mma-shadow-fighter  
 pip install -r requirements.txt
 
